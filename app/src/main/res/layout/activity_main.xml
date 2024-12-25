@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="1.0">
+
+    <!-- Container Layout -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <!-- SearchView -->
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_view_background"
+            android:queryHint="Search..."
+            android:iconifiedByDefault="false" />
+
+    </LinearLayout>
+
+    <!-- Category Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button_electronics"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Electronic"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_clothing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Clothing"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_foods"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Foods"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button_entertainment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:text="Entertain"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/button_background"
+            android:layout_margin="4dp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Category List (GridView) -->
+    <LinearLayout
+        android:id="@+id/category_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.73">
+
+        <GridView
+            android:id="@+id/image_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:horizontalSpacing="10dp"
+            android:numColumns="2"
+            android:paddingTop="16dp"
+            android:verticalSpacing="10dp" />
+    </LinearLayout>
+
+    <!-- Bottom Buttons Layout -->
+    <LinearLayout
+        android:id="@+id/bottom_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:background="@drawable/house_solid"
+            android:contentDescription="Home" />
+
+        <ImageView
+            android:id="@+id/list_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:background="@drawable/list"
+            android:contentDescription="List" />
+
+        <ImageView
+            android:id="@+id/favorites_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:background="@drawable/favorite"
+            android:contentDescription="Favorites" />
+
+        <ImageView
+            android:id="@+id/profile_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:background="@drawable/profile"
+            android:contentDescription="Profile" />
+
+        <ImageView
+            android:id="@+id/settings_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:background="@drawable/setting"
+            android:contentDescription="Privacy" />
+    </LinearLayout>
+
+</LinearLayout>

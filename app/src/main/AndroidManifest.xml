@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pocket"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Business"
+        tools:targetApi="31">
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".user_profile" />
+        <activity android:name=".BusinessListActivity" />
+        <activity android:name=".review" />
+        <activity android:name=".ElectronicsAdapter" />
+        <activity android:name=".FoodAdapter" />
+        <activity android:name=".ClothAdapter" />
+        <activity android:name=".ElectronicsItem"/>
+        <activity android:name=".EntertainmentAdapter"/>
+        <activity android:name=".FavoriteItem"/>
+        <activity android:name=".ItemDetails"/>
+        <activity android:name=".ItemAdapter"/>
+        <activity android:name=".FavoritesAdapter"/>
+        <activity android:name=".my_business"/>
+        <activity android:name=".setting"/>
+        <activity android:name=".edit_profile"/>
+        <activity android:name=".BusinessAdapter"/>
+        <activity android:name=".BusinessItem"/>
+        <activity android:name=".ImageAdapter"/>
+        <activity android:name=".DetailActivity"/>
+        <activity android:name=".FoodItem"/>
+        <activity android:name=".ClothItem"/>
+        <activity android:name=".EntertainmentItem"/>
+        <activity android:name=".FavoriteItemViewHolder"/>
+        <activity android:name="FavoritesActivity"/>
+</application>
+
+</manifest>

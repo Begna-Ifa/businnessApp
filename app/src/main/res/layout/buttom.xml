@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Main content area -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:layout_above="@id/bottom_navigation" />
+
+    <!-- Bottom navigation bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/bottom_navigation_item_color"
+        app:itemTextColor="@color/bottom_navigation_item_color"
+        app:menu="@menu/bottom_navigation_menu" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/house_solid"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/favorite"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/privacy"/>
+
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

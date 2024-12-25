@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/customColor3"
+    android:layout_height="match_parent">
+
+
+    <!-- Company Logo -->
+    <ImageView
+        android:id="@+id/companyLogo"
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/splash2" />
+
+    <!-- Tagline or Slogan -->
+    <TextView
+        android:id="@+id/taglineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/companyLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="We work For Availability"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <!-- Call-to-Action Button -->
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taglineTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Get Started"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background" />
+
+</RelativeLayout>

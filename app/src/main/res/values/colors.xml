@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary and Secondary colors -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryLightColor">#BB86FC</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="secondaryColor">#03DAC6</color>
+    <color name="secondaryLightColor">#66FFF9</color>
+    <color name="secondaryDarkColor">#00A896</color>
+
+    <!-- Background colors -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="surfaceColor">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="textHintColor">#9E9E9E</color>
+    <color name="textOnPrimaryColor">#FFFFFF</color>
+    <color name="textOnSecondaryColor">#000000</color>
+
+    <!-- Error colors -->
+    <color name="errorColor">#B00020</color>
+    <color name="errorLightColor">#EF5350</color>
+    <color name="errorDarkColor">#D32F2F</color>
+
+    <!-- Additional colors -->
+    <color name="accentColor">#FF4081</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="iconColor">#757575</color>
+
+    <color name="splash_background">#FFFFFF</color> <!-- Use any color code you prefer -->
+
+
+    <!-- Custom colors -->
+    <color name="customColor1">#FF5722</color>
+    <color name="customColor2">#4CAF50</color>
+    <color name="customColor3">#FFC107</color>
+    <color name="customColor4">#2196F3</color>
+    <color name="customColor5">#FF9800</color>
+    <color name="customColor6">#9C27B0</color>
+    <color name="customColor7">#8BC34A</color>
+    <color name="customColor8">#03A9F4</color>
+    <color name="customColor9">#FF5722</color>
+    <color name="customColor10">#00BCD4</color>
+</resources>

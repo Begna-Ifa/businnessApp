@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "403219164727",
+    "project_id": "business-c7d33",
+    "storage_bucket": "business-c7d33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403219164727:android:873d4379f91459f9e619b2",
+        "android_client_info": {
+          "package_name": "com.example.business"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4qEAWBvYsHd7S58eFh-nq1arLzjRv0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
